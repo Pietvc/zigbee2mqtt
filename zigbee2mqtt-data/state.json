@@ -1,0 +1,33 @@
+{
+    "0x842e14fffe8d8ff9": {
+        "battery": 11
+    },
+    "0x00158d00046ff95b": {
+        "state": "ON",
+        "brightness": 254,
+        "color_mode": "xy",
+        "color_temp": 88,
+        "color": {
+            "x": 0.34146341463414637,
+            "y": 0.17073170731707318
+        }
+    },
+    "0x00124b0022ebbfeb": {
+        "occupancy": false,
+        "tamper": false,
+        "battery_low": false,
+        "voltage": 2900,
+        "battery": 80
+    },
+    "0x00124b0022ec0b40": {
+        "occupancy": true,
+        "tamper": false,
+        "battery_low": false,
+        "voltage": 2900,
+        "battery": 80
+    },
+    "0x00124b0022664fe6": {
+        "voltage": 3100,
+        "battery": 100
+    }
+}

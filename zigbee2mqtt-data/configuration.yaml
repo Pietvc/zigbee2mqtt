@@ -1,0 +1,58 @@
+homeassistant: false
+permit_join: true
+mqtt:
+  base_topic: Gerard49
+  server: mqtt://mqtt
+serial:
+  port: /dev/ttyZBSonoff
+frontend:
+  port: 8081
+  auth_token: '2134'
+advanced:
+  network_key:
+    - 223
+    - 161
+    - 116
+    - 29
+    - 167
+    - 149
+    - 152
+    - 124
+    - 208
+    - 141
+    - 184
+    - 143
+    - 139
+    - 163
+    - 226
+    - 136
+  homeassistant_legacy_entity_attributes: false
+  legacy_api: false
+  ikea_ota_use_test_url: false
+  log_syslog:
+    app_name: Zigbee2MQTT
+    eol: /n
+    host: localhost
+    localhost: localhost
+    path: /dev/log
+    pid: process.pid
+    port: 123
+    protocol: tcp4
+    type: '5424'
+device_options:
+  legacy: false
+experimental:
+  output: json
+devices:
+  '0x00158d00046ff95b':
+    friendly_name: Device/ProlightBulb
+  '0x842e14fffe8d8ff9':
+    friendly_name: Remote/IKEA_onoff
+  '0x00124b0022ebbfeb':
+    friendly_name: Sensor/Beweging_4
+  '0x00124b0022ec0b40':
+    friendly_name: Sensor/Beweging_6
+  '0x00124b0022664fe6':
+    friendly_name: Remote/SN_Drukknop
+external_converters:
+  - 81464.js
