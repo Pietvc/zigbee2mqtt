@@ -4,7 +4,7 @@
     },
     "0x00158d00046ff95b": {
         "state": "ON",
-        "brightness": 254,
+        "brightness": 1,
         "color_mode": "xy",
         "color_temp": 88,
         "color": {
@@ -20,11 +20,11 @@
         "battery": 80
     },
     "0x00124b0022ec0b40": {
-        "occupancy": true,
+        "occupancy": false,
         "tamper": false,
         "battery_low": false,
         "voltage": 2900,
-        "battery": 80
+        "battery": 79.5
     },
     "0x00124b0022664fe6": {
         "voltage": 3100,
