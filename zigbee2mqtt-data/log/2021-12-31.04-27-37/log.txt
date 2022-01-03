@@ -1,0 +1,169 @@
+info  2021-12-31 04:27:48: Logging to console and directory: '/app/data/log/2021-12-31.04-27-37' filename: log.txt
+info  2021-12-31 04:27:51: Starting Zigbee2MQTT version 1.22.1 (commit #c2b5229)
+info  2021-12-31 04:27:51: Starting zigbee-herdsman (0.13.176)
+info  2021-12-31 04:27:57: zigbee-herdsman started (resumed)
+info  2021-12-31 04:27:57: Coordinator firmware version: '{"meta":{"maintrel":1,"majorrel":2,"minorrel":7,"product":1,"revision":20210708,"transportrev":2},"type":"zStack3x0"}'
+info  2021-12-31 04:27:57: Currently 5 devices are joined:
+info  2021-12-31 04:27:57: Sensor/Beweging_4 (0x00124b0022ebbfeb): SNZB-03 - SONOFF Motion sensor (EndDevice)
+info  2021-12-31 04:27:57: Remote/SN_Drukknop (0x00124b0022664fe6): SNZB-01 - SONOFF Wireless button (EndDevice)
+info  2021-12-31 04:27:57: Device/ProlightBulb (0x00158d00046ff95b): 81464 - Prolight My super lamp! (Router)
+info  2021-12-31 04:27:57: Remote/IKEA_onoff (0x842e14fffe8d8ff9): E1743 - IKEA TRADFRI ON/OFF switch (EndDevice)
+info  2021-12-31 04:27:57: Sensor/Beweging_6 (0x00124b0022ec0b40): SNZB-03 - SONOFF Motion sensor (EndDevice)
+warn  2021-12-31 04:27:57: `permit_join` set to  `true` in configuration.yaml.
+warn  2021-12-31 04:27:57: Allowing new devices to join.
+warn  2021-12-31 04:27:57: Set `permit_join` to `false` once you joined all devices.
+info  2021-12-31 04:27:57: Zigbee: allowing new devices to join.
+info  2021-12-31 04:27:57: Connecting to MQTT server at mqtt://mqtt
+info  2021-12-31 04:27:58: Connected to MQTT server
+info  2021-12-31 04:27:58: MQTT publish: topic 'Gerard49/bridge/state', payload 'online'
+info  2021-12-31 04:27:58: Loaded  MyExampleExtension1640687144372
+info  2021-12-31 04:27:58: MQTT publish: topic 'Gerard49/example/extension', payload 'hello from MyExampleExtension1640687144372'
+warn  2021-12-31 04:27:58: Using experimental new availability feature
+info  2021-12-31 04:27:58: Started frontend on port 0.0.0.0:8081
+info  2021-12-31 04:27:59: MQTT publish: topic 'Gerard49/Sensor/Beweging_4', payload '{"battery":80,"battery_low":false,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:27:59: MQTT publish: topic 'Gerard49/Remote/SN_Drukknop', payload '{"battery":100,"voltage":3100}'
+info  2021-12-31 04:27:59: MQTT publish: topic 'Gerard49/Device/ProlightBulb', payload '{"brightness":0,"color":{"x":0.34146341463414637,"y":0.17073170731707318},"color_mode":"xy","color_temp":88,"state":"OFF"}'
+info  2021-12-31 04:27:59: MQTT publish: topic 'Gerard49/Remote/IKEA_onoff', payload '{"battery":11}'
+info  2021-12-31 04:27:59: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:27:59: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:27:59: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":21,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:28:00: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":21,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:28:05: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":27,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:28:06: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":42,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:28:08: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":33,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:28:22: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:28:30: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":27,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:28:33: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:28:34: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":33,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:28:56: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:28:58: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":30,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:29:18: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:29:21: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":33,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:29:29: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:29:31: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":39,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:29:40: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:29:41: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":30,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:30:15: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:30:16: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":33,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:30:35: MQTT publish: topic 'Gerard49/Device/ProlightBulb', payload '{"brightness":1,"color":{"x":0.34146341463414637,"y":0.17073170731707318},"color_mode":"xy","color_temp":88,"linkquality":39,"state":"ON"}'
+info  2021-12-31 04:30:38: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:30:39: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":15,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:30:49: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:30:51: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":12,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:31:00: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:31:04: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":27,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:31:11: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:31:12: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":30,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:31:34: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:31:34: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":33,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:31:45: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:31:46: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":33,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:31:56: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:31:57: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":30,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:32:07: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:32:12: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":27,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:32:17: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:32:20: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":39,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:32:29: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:32:30: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":33,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:32:45: MQTT publish: topic 'Gerard49/Device/ProlightBulb', payload '{"brightness":2,"color":{"x":0.34146341463414637,"y":0.17073170731707318},"color_mode":"xy","color_temp":88,"linkquality":33,"state":"ON"}'
+info  2021-12-31 04:32:52: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:32:55: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":27,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:33:04: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:33:06: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":42,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:33:14: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:33:17: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":27,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:33:25: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:33:28: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":27,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:33:36: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:33:37: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":21,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:33:58: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:34:07: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":24,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:34:09: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:34:14: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":15,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:34:20: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:34:22: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":27,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:34:31: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:34:32: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":36,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:34:42: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:34:45: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":24,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:35:05: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:35:07: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":27,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:35:15: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:35:16: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":36,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:35:26: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:35:28: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":21,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:35:37: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:35:48: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:35:49: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":21,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:36:10: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:36:11: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":24,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:36:21: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:36:26: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":27,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:36:32: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:36:34: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":33,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:36:54: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:36:57: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":24,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:37:05: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:37:06: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":30,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:37:16: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:37:19: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":18,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:37:27: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:37:30: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":30,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:37:35: MQTT publish: topic 'Gerard49/Remote/SN_Drukknop', payload '{"battery":100,"linkquality":174,"voltage":3100}'
+info  2021-12-31 04:37:50: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:37:57: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":12,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:38:13: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:38:14: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":3,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:38:25: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:38:28: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":3,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:38:35: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:38:36: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":0,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:38:58: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:39:05: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":3,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:39:10: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:39:14: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":0,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:39:21: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:39:31: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":9,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:39:33: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:39:38: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":18,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:39:44: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:39:46: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":9,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:39:54: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:39:56: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":36,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:40:05: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:40:06: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":36,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:40:16: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:40:17: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":36,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:40:26: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:40:27: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":18,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:40:37: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:40:40: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":21,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:40:40: Starting network scan (includeRoutes 'false')
+info  2021-12-31 04:40:48: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:40:54: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":12,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:40:59: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:41:02: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":30,"occupancy":false,"tamper":false,"voltage":2900}'
+error 2021-12-31 04:41:07: Failed to execute LQI for 'Device/ProlightBulb'
+info  2021-12-31 04:41:07: Network scan finished
+info  2021-12-31 04:41:07: MQTT publish: topic 'Gerard49/bridge/response/networkmap', payload '{"data":{"routes":false,"type":"raw","value":{"links":[{"depth":1,"linkquality":170,"lqi":170,"relationship":1,"routes":[],"source":{"ieeeAddr":"0x00124b0022ebbfeb","networkAddress":77},"sourceIeeeAddr":"0x00124b0022ebbfeb","sourceNwkAddr":77,"target":{"ieeeAddr":"0x00124b0024c9f13e","networkAddress":0},"targetIeeeAddr":"0x00124b0024c9f13e"},{"depth":1,"linkquality":172,"lqi":172,"relationship":1,"routes":[],"source":{"ieeeAddr":"0x00124b0022664fe6","networkAddress":38500},"sourceIeeeAddr":"0x00124b0022664fe6","sourceNwkAddr":38500,"target":{"ieeeAddr":"0x00124b0024c9f13e","networkAddress":0},"targetIeeeAddr":"0x00124b0024c9f13e"},{"depth":255,"linkquality":24,"lqi":24,"relationship":2,"routes":[],"source":{"ieeeAddr":"0x00158d00046ff95b","networkAddress":47556},"sourceIeeeAddr":"0x00158d00046ff95b","sourceNwkAddr":47556,"target":{"ieeeAddr":"0x00124b0024c9f13e","networkAddress":0},"targetIeeeAddr":"0x00124b0024c9f13e"}],"nodes":[{"definition":null,"failed":[],"friendlyName":"Coordinator","ieeeAddr":"0x00124b0024c9f13e","lastSeen":null,"networkAddress":0,"type":"Coordinator"},{"definition":{"description":"Motion sensor","model":"SNZB-03","supports":"occupancy, battery_low, tamper, battery, linkquality","vendor":"SONOFF"},"friendlyName":"Sensor/Beweging_4","ieeeAddr":"0x00124b0022ebbfeb","lastSeen":1640920785829,"manufacturerName":"eWeLink","modelID":"MS01","networkAddress":77,"type":"EndDevice"},{"definition":{"description":"Wireless button","model":"SNZB-01","supports":"battery, action, linkquality","vendor":"SONOFF"},"friendlyName":"Remote/SN_Drukknop","ieeeAddr":"0x00124b0022664fe6","lastSeen":1640921855048,"manufacturerName":"eWeLink","modelID":"WB01","networkAddress":38500,"type":"EndDevice"},{"definition":{"description":"My super lamp!","model":"81464","supports":"light (state, brightness), effect, linkquality","vendor":"Prolight"},"failed":["lqi"],"friendlyName":"Device/ProlightBulb","ieeeAddr":"0x00158d00046ff95b","lastSeen":1640921625218,"manufacturerName":"Prolight","modelID":"PROLIGHT E27 WARM WHITE","networkAddress":47556,"type":"Router"},{"definition":{"description":"TRADFRI ON/OFF switch","model":"E1743","supports":"battery, action, linkquality","vendor":"IKEA"},"friendlyName":"Remote/IKEA_onoff","ieeeAddr":"0x842e14fffe8d8ff9","lastSeen":1640707527723,"manufacturerName":"IKEA of Sweden","modelID":"TRADFRI on/off switch","networkAddress":30121,"type":"EndDevice"},{"definition":{"description":"Motion sensor","model":"SNZB-03","supports":"occupancy, battery_low, tamper, battery, linkquality","vendor":"SONOFF"},"friendlyName":"Sensor/Beweging_6","ieeeAddr":"0x00124b0022ec0b40","lastSeen":1640922065048,"manufacturerName":"eWeLink","modelID":"MS01","networkAddress":56916,"type":"EndDevice"}]}},"status":"ok","transaction":"yo4mz-1"}'
+info  2021-12-31 04:41:10: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:41:10: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":33,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:41:21: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:41:21: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":27,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:41:31: MQTT publish: topic 'Gerard49/bridge/event', payload '{"data":{"friendly_name":"Sensor/Beweging_6","ieee_address":"0x00124b0022ec0b40"},"type":"device_announce"}'
+info  2021-12-31 04:41:32: MQTT publish: topic 'Gerard49/Sensor/Beweging_6', payload '{"battery":79.5,"battery_low":false,"linkquality":27,"occupancy":false,"tamper":false,"voltage":2900}'
+info  2021-12-31 04:41:44: Restarting Zigbee2MQTT
+info  2021-12-31 04:41:44: MQTT publish: topic 'Gerard49/bridge/response/restart', payload '{"data":{},"status":"ok","transaction":"yo4mz-2"}'
+error 2021-12-31 04:41:45: Failed to call 'MyExampleExtension1640687144372' 'stop' (TypeError: this.eventBus.removeListenersExtension is not a function
+    at MyExampleExtension1640687144372.stop (/app/dist/util/externally-loaded.js:31:23)
+    at Controller.callExtensions (/app/lib/controller.ts:310:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at Controller.stop (/app/lib/controller.ts:190:9)
+    at stop (/app/index.js:101:5)
+    at Timeout.restart [as _onTimeout] (/app/index.js:18:5))
+info  2021-12-31 04:41:45: MQTT publish: topic 'Gerard49/bridge/state', payload 'offline'
+info  2021-12-31 04:41:45: Disconnecting from MQTT server
+info  2021-12-31 04:41:45: Stopping zigbee-herdsman...
+info  2021-12-31 04:41:56: Stopped zigbee-herdsman

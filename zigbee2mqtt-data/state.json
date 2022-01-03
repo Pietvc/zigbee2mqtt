@@ -2,18 +2,8 @@
     "0x842e14fffe8d8ff9": {
         "battery": 11
     },
-    "0x00158d00046ff95b": {
-        "state": "ON",
-        "brightness": 1,
-        "color_mode": "xy",
-        "color_temp": 88,
-        "color": {
-            "x": 0.34146341463414637,
-            "y": 0.17073170731707318
-        }
-    },
     "0x00124b0022ebbfeb": {
-        "occupancy": false,
+        "occupancy": true,
         "tamper": false,
         "battery_low": false,
         "voltage": 2900,
